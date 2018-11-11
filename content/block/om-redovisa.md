@@ -1,3 +1,3 @@
-#### Redovisa på GitHub
+#### GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+Mitt repo för den här kursen finns även [på GitHub](https://github.com/CraziestSolid/designv2).
