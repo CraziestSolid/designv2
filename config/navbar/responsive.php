@@ -7,7 +7,7 @@ return [
     "id" => "rm-menu",
     "wrapper" => null,
     "class" => "rm-default rm-mobile",
- 
+
     // Here comes the menu items
     "items" => [
         [
@@ -17,7 +17,7 @@ return [
         ],
         [
             "text" => "Redovisning",
-            "url" => "redovisning",
+            "url" => "redovisning/kmom02",
             "title" => "Redovisningstexter från kursmomenten.",
             "submenu" => [
                 "items" => [

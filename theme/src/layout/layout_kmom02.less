@@ -1,0 +1,154 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+
+
+
+/**
+* Header and flash img layout
+*/
+
+.region-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.region-header-col-1 {
+    flex-grow: 1;
+}
+
+.region-header-col-2 {
+    flex-grow: 4;
+}
+
+.region-header-col-3 {
+    flex-grow: 1;
+}
+
+.region-header a {
+      color: ghostwhite;
+      text-decoration: none !important;
+}
+
+.region-flash img {
+      max-width: 100%;
+}
+
+.rm-navbar li, a {
+    color: ghostwhite;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+
+.site-logo-text a {
+      margin: 0 auto;
+      color: red;
+}
+
+.outer-wrap-header {
+      background-color: #07575b;
+      .clearfix();
+}
+
+.inner-wrap-header {
+      max-width: 100%;
+}
+
+.region-header-col-1
+.region-header-col-3 {
+      width: 20%;
+      float: left;
+}
+
+.region-header-col-2 {
+      width: 60%;
+      float: left;
+      text-align: center;
+}
+
+
+/**
+* Site-logo layout
+*/
+
+.site-logo-text a {
+      color: #cfdfe6;
+}
+
+
+/**
+* Main and sidebar-layout
+*/
+
+.region-main {
+      width: 70%;
+      margin-left: 10%;
+      float: left;
+      overflow: auto;
+
+    &.has-sidebar {
+      margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+      width: 60%;
+    }
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+      width: 20%;
+      float: left;
+}
+
+.inner-wrap-main {
+      width: 70%;
+      overflow: auto;
+      margin: 0 auto;
+
+}
+
+.wrap-sidebar a {
+      color: #c05805;
+      text-decoration: none;
+}
+
+.wrap-sidebar a:hover {
+    color: #aaa;
+}
+
+.block .toc {
+  float: left;
+  margin-right: 20px;
+}
+
+
+/* Footer layout
+*/
+.region-footer {
+      background-color: #424242;
+      color: #fff;
+      text-align: center;
+}
+
+.footer-column {
+      float: left;
+      width: 33%;
+}
