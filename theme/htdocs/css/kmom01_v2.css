@@ -38,13 +38,13 @@
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #f1f1f2;
 }
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
+  background-color: #f1f1f2;
   font: 100.01%/1 serif;
 }
 img {
