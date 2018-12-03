@@ -1,0 +1,52 @@
+/*!
+ * Stylesheet for design kmom04-colorful mode.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "kmom04.less";
+@bgColorHtml: #cdcdc0;
+@bgColorBody: #cdcdc0;
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 12px;
+@fontFamilyBody:     "sans-serif";
+
+.large_picture {
+    opacity: 0;
+}
+
+.region-flash {
+    background-image: url("../../htdocs/img/orange.jpg");
+    background-size: cover;
+    background-position-y: -500px;
+    background-position: center center;
+    margin: 1%;
+    width: 100%;
+}
+
+
+.outer-wrap-header {
+      background-color: #f0810f !important;
+      background-image: none;
+}
+
+.rm-navbar li, a {
+      color: #011a27;
+}
+
+.region-header a {
+      color: #e6df44;
+
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+      background-color: #f0810f !important;
+      color: #011a27;
+      background-image: none;
+}

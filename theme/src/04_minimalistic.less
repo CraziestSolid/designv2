@@ -1,0 +1,51 @@
+/*!
+ * Stylesheet for design kmom04-minimalistic mode.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "kmom04.less";
+@fontFamilyBody:     "monospace";
+@magicNumber:  26px;  // 22px
+@fontSizeBody: 14px;
+@bgColorHtml: #f6f6f6;
+@bgColorBody: #f1f1f2;
+
+.large_picture {
+    opacity: 0;
+}
+
+.region-flash {
+    background-image: url("../../htdocs/img/monochrome.jpg");
+    background-size: cover;
+    background-position-y: -500px;
+    background-position: center center;
+    margin: 1%;
+    width: 100%;
+}
+
+
+.outer-wrap-header {
+      background-color: #f6f6f6 !important;
+      background-image: none;
+}
+
+.rm-navbar li, a {
+      color: #25282a;
+}
+
+.region-header a {
+      color: #ff513c;
+
+}
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+      background-color: #f6f6f6 !important;
+      color: #25282a;
+      background-image: none;
+}

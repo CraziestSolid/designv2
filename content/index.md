@@ -8,6 +8,13 @@ views:
             meta:
                 type: single
                 route: block/om-byline
+                flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+        src: "image/pollock.jpg?width=1800&height=200&crop-to-fit&area=10,10,0,10"
+        class: large_picture
+
 ---
 Mikaels me-sida i kursen design
 =========================

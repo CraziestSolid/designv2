@@ -35,6 +35,20 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport/index",
+            "title" => "Rapporter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport 1",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport för kmom04",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",

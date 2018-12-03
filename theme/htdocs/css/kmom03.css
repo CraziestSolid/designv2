@@ -4623,6 +4623,12 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
 html {
   overflow-y: scroll;
   background-color: #f1f1f2;
@@ -4631,7 +4637,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f1f1f2;
-  font: 14px/1.71428571 "sans-serif";
+  font: 16px/1.5 "sans-serif";
 }
 img {
   max-width: 100%;
@@ -4656,7 +4662,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.44360902;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4674,7 +4680,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.82857143;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -4684,7 +4690,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.95918367;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4694,7 +4700,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.14285714;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4704,7 +4710,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.37142857;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4713,7 +4719,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.37142857;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4863,7 +4869,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.95918367;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -4956,6 +4962,12 @@ hr::after {
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0px;
+}
 .row {
   display: block;
   width: 101.04166667%;
@@ -4980,6 +4992,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-image: linear-gradient(to bottom right, #003b46, #07575b);
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5036,6 +5049,11 @@ a {
 }
 .region-breadcrumb a:hover {
   color: ghostwhite;
+}
+.toc ul {
+  color: ghostwhite;
+  text-transform: uppercase;
+  list-style-type: none;
 }
 /**
 * Site-logo layout
@@ -5094,7 +5112,7 @@ a {
   margin-right: 0.52083333%;
 }
 .wrap-sidebar a {
-  color: #c05805;
+  color: #2a3132;
   text-decoration: none;
 }
 .wrap-sidebar a:hover {
@@ -5106,6 +5124,9 @@ a {
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.author-byline {
+  float: left;
 }
 /**
 * Footer
@@ -5121,6 +5142,7 @@ a {
 .inner-wrap-footer {
   background-color: #07575b;
   color: ghostwhite;
+  background-image: linear-gradient(#003b46, #07575b);
 }
 .footer-column {
   display: inline;
