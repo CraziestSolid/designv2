@@ -4578,9 +4578,6 @@ body {
   background-color: #f1f1f2;
   font: 100.01%/1 sans-serif;
 }
-img {
-  max-width: 100%;
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4715,16 +4712,7 @@ a {
     padding-right: 0.5em;
   }
 }
-@media screen and (max-width: 800px) {
-  .region-header-col-1,
-  .region-header-col-3 {
-    width: 15%;
-  }
-  .region-header-col-2 {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
   .rm-desktop {
     display: none;
   }
@@ -4740,6 +4728,15 @@ a {
   }
   .footer-column-2 {
     margin: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
   }
 }
 /**

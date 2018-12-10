@@ -4637,10 +4637,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f1f1f2;
-  font: 14px/1.71428571 "sans-serif";
-}
-img {
-  max-width: 100%;
+  font: 16px/1.5 "sans-serif";
 }
 h1,
 h2,
@@ -4662,7 +4659,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.44360902;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4680,7 +4677,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.82857143;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -4690,7 +4687,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.95918367;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4700,7 +4697,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.14285714;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4710,7 +4707,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.37142857;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4719,7 +4716,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.37142857;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4869,7 +4866,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.95918367;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -5117,13 +5114,6 @@ a {
 }
 .wrap-sidebar a:hover {
   color: #aaa;
-}
-.figure {
-  display: inline;
-  float: left;
-  width: 23.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
 }
 .author-byline {
   float: left;

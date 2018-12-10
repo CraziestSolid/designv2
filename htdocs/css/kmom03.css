@@ -4639,9 +4639,6 @@ body {
   background-color: #f1f1f2;
   font: 16px/1.5 "sans-serif";
 }
-img {
-  max-width: 100%;
-}
 h1,
 h2,
 h3,
@@ -5117,13 +5114,6 @@ a {
 }
 .wrap-sidebar a:hover {
   color: #aaa;
-}
-.figure {
-  display: inline;
-  float: left;
-  width: 23.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
 }
 .author-byline {
   float: left;

@@ -1,4 +1,4 @@
-Rapport för kmom04
+Färgschema på webbplatser
 =======================
 
 Uppgiftens syfte är att analysera tre olika webbsidor ur ett designperspektiv där fokus ligger på dess färgval och rapportskrivarnas uppfattning kring hur detta speglar sidans syfte.
@@ -140,7 +140,7 @@ Vi har presenterat tre olika resultat utifrån tre webbsidor som vi anser har en
 
 Det som separerar de olika webbplatserna i design tyder på att det finns markanta skillnader i hur man definierar och ser på ett minimalistisk synsätt. Det kan finnas multipla faktorer som påverkar detta, som exempelvis, målgrupp, innehåll och idéer. Wikipedia ämnar att nå en bred publik och försöker således att skapa en sida så enkel som möjligt, utan olika stylade och flashiga animationer. Medan Evoulve försöker kanske nå en helt annan målgrupp som inte är lika bred. Deras innehåll handlar mycket om framtiden och därför blir det naturligt för de att styla enligt den idén och det temat. Cooperperkins har designat sin sida genom en mix av Wikipedia och Evoulve skulle vi påstå, där de har väldigt enkla färgkombinationer som Wikipedia, men också enkla animationer/övergångar på sin webbsida som Evoulve.
 
-Vi tar således med oss en förståelse för att det finns fler än en väg att gå för att på ett minimalistiskt sätt skapa en webbsida som både är informativ samt spännade att se på. 
+Vi tar således med oss en förståelse för att det finns fler än en väg att gå för att på ett minimalistiskt sätt skapa en webbsida som både är informativ samt spännade att se på.
 
 Referenser
 -----------------------

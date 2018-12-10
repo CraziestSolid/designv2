@@ -48,6 +48,11 @@ return [
             ],
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens Bild",
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",

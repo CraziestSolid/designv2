@@ -1,5 +1,10 @@
 Revision history
 
+v5.0.0 (2018-12-10)
+
+* Done with kmom05
+
+
 v4.0.0 (2018-12-03)
 
 * Done with kmom04
