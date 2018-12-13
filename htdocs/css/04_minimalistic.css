@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom04-minimalistic mode.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -10,7 +10,7 @@
 /*!
  * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Imports mixins
@@ -4640,7 +4640,7 @@ h4 {
 }
 html {
   overflow-y: scroll;
-  background-color: #f1f1f2;
+  background-color: #f6f6f6;
 }
 body {
   margin: 0;
@@ -5264,7 +5264,7 @@ a {
   opacity: 0;
 }
 .region-flash {
-  background-image: url("../../htdocs/img/monochrome.jpg");
+  background-image: url("../../htdocs/img/dylan1975.jpg");
   background-size: cover;
   background-position-y: -500px;
   background-position: center center;

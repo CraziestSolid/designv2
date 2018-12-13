@@ -30,10 +30,11 @@ Kursen Teknisk webbdesign och användbarhet, a.k.a. design, lär webbprogrammera
 Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb. Kursen har tekniken som utgångspunkt, där olika tekniker introduceras och används för att underlätta webbdesign och användbarhet för webbplatsen med syftet att skapa en korrekt och användarvänlig webbplats. (Mikael Roos 2018-06-08)
 
 
-[FIGURE src=image/renoir.jpg?w=300 class="left"  caption="Luncheon of the boating party - Pierre-Auguste Renoir."]
 
-[FIGURE src=image/boccioni.jpg?w=300 class="center" caption="Dynamism - Umberto Boccioni."]
 
-[FIGURE src=image/cezanne.jpg?w=300 class="right"  caption="The Large Bathers - Paul Cézanne."]
 
-[FIGURE src=image/stella.jpg?w=300 class="left" caption="Battle of Lights - Joseph Stella."]
+[FIGURE src=image/boccioni.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left" caption="Dynamism - Umberto Boccioni."]
+
+[FIGURE src=image/cezanne.jpg?&w=300&crop-to-fit&aspect-ratio=16:10  class="left"  caption="The Large Bathers - Paul Cézanne."]
+
+[FIGURE src=image/stella.jpg?&w=300&crop-to-fit&aspect-ratio=16:10  class="left" caption="Battle of Lights - Joseph Stella."]

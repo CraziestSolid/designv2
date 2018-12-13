@@ -23,4 +23,9 @@ Välkommen till min sida som är skapad till kursen Design med syftet att med ra
 
 Kort om mig: 30-årig Stockholmare som sent uppptäckt ett stort intresse för programmering. På fritiden blir det mest golf och thaiboxning.
 
-[FIGURE src="img/picasso.jpg?w=500&height=200" class="center" caption="Tavla av Picasso hängandes på MoMa i New York."]
+[FIGURE src=image/turner1.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]
+[FIGURE src=image/modernist.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]
+[FIGURE src=image/titian.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]
+[FIGURE src=image/pollock1.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]
+[FIGURE src=image/stella.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]
+[FIGURE src=image/picasso.jpg?&w=300&crop-to-fit&aspect-ratio=16:10 class="left"]

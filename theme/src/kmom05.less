@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
  */
 
 /**
@@ -39,6 +39,22 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
+/**
+* Import the vertical grid.
+*/
+
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+//@import "base/base.less";
+@import "base/base_kmom03.less";
+
+/**
+* Import the stylesheet
+*/
+@import "src/layout/vgrid.less";
+@import "src/layout/kmom05_layout.less";
+
 
 /**
  * Figure and figcaption for images and other media using figure/figcaption
@@ -67,21 +83,6 @@ figure.figure-codepen {
 }
 
 
-/**
-* Import the vertical grid.
-*/
-
-@import "@desinax/vertical-grid/less/grid.less";
-
-
-//@import "base/base.less";
-@import "base/base_kmom03.less";
-
-/**
-* Import the stylesheet
-*/
-@import "src/05_minimalistic.less";
-
 
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -109,8 +110,3 @@ figure.figure-codepen {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
 }
-
-
-/**
- * My own settings, not currently in their own module.
- */
