@@ -44,6 +44,8 @@ Resultat
 </tr>
 </table>
 
+
+
 <h5>Färgschema och accentfärg:</h5>
 
 Hemsidan använder sig av ett akromatiskt färgschema och en orange accentfärg.

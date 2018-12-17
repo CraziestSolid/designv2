@@ -1,4 +1,4 @@
-Kursmoment 07 - Design
+Kursmoment 07 - designelement
 =======================
 
 Mitt val av design för detta kursmoment utgick ifrån min flashbild. Bilden är en tavla av Jackson Pollock, en konstnär är känd för att skapa figurer, linjer och rörelser som verkar slumpmässiga, men är väldigt medvetet utförda och med hög teknisk kompetens.

@@ -4633,12 +4633,12 @@ h4 {
 }
 html {
   overflow-y: scroll;
-  background-color: #f6f6f6;
+  background-color: #f25c00;
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: #cdcdc0;
+  background-color: #ee693f;
   font: 14px/1.71428571 "sans-serif";
 }
 h1,
@@ -4953,6 +4953,7 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   max-width: 80%;
+  margin: 0 auto;
 }
 /**
 * Header, navbar, breadcrumb and flash img layout
@@ -5186,26 +5187,11 @@ a {
     width: 70%;
   }
 }
-html {
-  background-image: linear-gradient(#ffffff, #cdcdc0);
-  background-size: cover;
-  font-size: 100%;
-  line-height: 1.5;
-  opacity: 30;
-}
-body {
-  background-image: linear-gradient(#ffffff, #cdcdc0);
-  background-size: cover;
-  font-size: 100%;
-  line-height: 1.5;
-  opacity: 30;
+p {
+  color: #f7efe2;
 }
 h1 {
-  color: lightslategray;
-  font-family: serif;
-}
-.article p {
-  font-size: 12px;
+  color: #f7efe2;
 }
 .author-byline {
   display: none;
@@ -5216,72 +5202,41 @@ h1 {
 .large_picture {
   opacity: 0;
 }
-.region-flash {
-  background-image: url("../../htdocs/img/pollock1.jpg");
-  background-size: cover;
-  background-position-y: -500px;
-  background-position: center center;
-  margin: 1%;
-  width: 100%;
+.outer-wrap-flash {
+  display: none;
 }
-/**
-* Color and fonts for tags
-*
-*/
-.rm-desktop li a {
-  color: #e3be42;
+.inner-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+  margin: 0 auto;
 }
-.rm-navbar a {
-  color: #e3be42;
-  font-family: serif;
+.outer-wrap-header {
+  background-color: #f25c00;
+  background-image: none;
+  border-bottom-style: ridge;
+  border-bottom-width: solid;
+}
+.rm-navbar li,
+a {
+  color: #f7efe2;
 }
 .region-header a {
-  color: #fb6542;
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-}
-.toc a {
-  font-size: 14px;
-  color: lightslategray;
-}
-.next a {
-  font-size: 12px;
-  color: lightslategray;
-}
-.site-logo-text a {
-  color: #c9a66b;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-}
-.blog-list-item a {
-  font-size: 12px;
-}
-/**
-* Header and footer
-*
-*/
-.outer-wrap-header {
-  background: url("../../htdocs/img/gradientwhite.jpg");
-  max-width: 100%;
-  color: ghostwhite;
-  padding-bottom: 3%;
-  border-bottom-style: solid;
-  border-width: 5px;
-  border-color: #cdcdc0;
+  color: #f7efe2;
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-image: linear-gradient(to bottom right, #cdcdc0, #cdcdc0);
-  background-size: cover;
-  font-size: 100%;
-  line-height: 1.5;
-  opacity: 30;
-  color: lightslategray;
-  font-family: serif;
-  font-weight: 300;
-  font-size: 14px;
+  background-color: #f25c00;
+  color: #f7efe2;
+  background-image: none;
+}
+.region-main {
+  background-color: #f69454;
+  border-style: groove;
+  border-color: #f25c00;
+}
+.figure.left {
+  border-style: outset;
 }
 /**
  * Figure and figcaption for images and other media using figure/figcaption
